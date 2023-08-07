@@ -66,6 +66,14 @@ As features stabilize some brief notes about them will accumulate here.
 * Command Palette was using now-invalid Nerd Font 2.0 symbols for macOS
   keyboard shortcuts. #3988
 * Windows: couldn't use shifted keys like `(` in the Debug Overlay. #3999
+* X11: fd leak on each call to
+  [wezterm.gui.enumerate_gpus](config/lua/wezterm.gui/enumerate_gpus.md). #3612
+* Charselect and repl recency/history were not persisted across restarts. #4047 ?4019
+* macOS: system font fallback didn't always find a workable fallback font. #4099 #849
+* F13-F24 keys are now supported. Thanks to @ovidiu-ionescu! #3937
+
+#### Updated
+* Bundled harfbuzz to 8.1.1
 
 ### 20230712-072601-f4abf8fd
 
